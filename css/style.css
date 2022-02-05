@@ -12,6 +12,11 @@ ul,ol{
   list-style:none;
 }
 
+.nav {
+				width:500px;
+				margin:0 auto;
+}
+
 .nav li a{
   background-color:#222;
   color:#fff;
