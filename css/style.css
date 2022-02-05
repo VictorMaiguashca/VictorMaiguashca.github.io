@@ -13,8 +13,8 @@ ul,ol{
 }
 
 .nav {
-				width:500px;
-				margin:0 auto;
+  width:500px;
+  margin:0 auto;
 }
 
 .nav li a{
@@ -36,7 +36,7 @@ ul,ol{
 .nav li ul{
   display:none;
   position:absolute;
-  min-with: 200px;
+  max-with: 200px;
 }
 
 .nav li:hover > ul{
@@ -48,6 +48,6 @@ ul,ol{
 }
 
 .nav li ul li ul{
-  left: 0px;
+  left: 200px;
   top: 0px;
 }
