@@ -13,6 +13,7 @@ ul,ol{
 }
 
 .nav li a{
+  background-color:#222;
   color:#fff;
   text-decoration:none;
   padding:10px 15px;
@@ -30,7 +31,7 @@ ul,ol{
 .nav li ul{
   display:none;
   position:absolute;
-  min-with: 200px;
+  min-with: 500px;
 }
 
 .nav li:hover > ul{
@@ -42,9 +43,6 @@ ul,ol{
 }
 
 .nav li ul li ul{
-  right: -200px;
+  right: -500px;
   top: 0px;
-}
-.mbar{
-  background-color:#222;
 }
