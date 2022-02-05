@@ -30,7 +30,7 @@ ul,ol{
 .nav li ul{
   display:none;
   position:absolute;
-  min-with: 140px;
+  min-with: 200px;
 }
 
 .nav li:hover > ul{
