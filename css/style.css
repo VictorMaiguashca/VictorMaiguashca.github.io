@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 #header {
@@ -32,15 +32,15 @@ ol {
 
 .nav > li {
   float: left;
-  position: relative; /* Agregado */
+  position: relative;
 }
 
 .nav li ul {
   display: none;
   position: absolute;
   width: 200px;
-  top: 100%; /* Ajustado */
-  left: 0; /* Ajustado */
+  top: 100%;
+  left: 0;
 }
 
 .nav li:hover > ul {
@@ -52,6 +52,11 @@ ol {
 }
 
 .nav li ul li ul {
-  left: 100%; /* Ajustado */
-  top: 0px;
+  left: 100%;
+  top: 0;
+}
+
+/* Agrega espacio entre h1 y h2 */
+h1, h2 {
+  margin-top: 20px;
 }
