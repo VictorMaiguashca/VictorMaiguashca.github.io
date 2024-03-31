@@ -56,7 +56,7 @@ ol {
   top: 0;
 }
 
-/* Agrega espacio entre h1 y h2 */
+/* Coloca h1 y h2 debajo del menú */
 h1, h2 {
-  margin-top: 20px;
+  clear: both;
 }
